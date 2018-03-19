@@ -1,0 +1,32 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('https://i.icomoon.io/public/temp/2c22f9beb8/UntitledProject/icomoon.eot?x7e1vy');
+  src:  url('https://i.icomoon.io/public/temp/2c22f9beb8/UntitledProject/icomoon.eot?x7e1vy#iefix') format('embedded-opentype'),
+    url('https://i.icomoon.io/public/temp/2c22f9beb8/UntitledProject/icomoon.ttf?x7e1vy') format('truetype'),
+    url('https://i.icomoon.io/public/temp/2c22f9beb8/UntitledProject/icomoon.woff?x7e1vy') format('woff'),
+    url('https://i.icomoon.io/public/temp/2c22f9beb8/UntitledProject/icomoon.svg?x7e1vy#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-circle-right:before {
+  content: "\ea42";
+}
+.icon-circle-left:before {
+  content: "\ea44";
+}
